@@ -1,0 +1,63 @@
+:root {
+  --pink-primary: #f8bbd9;
+  --pink-secondary: #f4a6cd;
+  --pink-light: #fdeef4;
+  --pink-dark: #e91e63;
+  --text-dark: #333;
+}
+
+body {
+  background-color: #fff;
+  color: var(--text-dark);
+}
+
+.navbar {
+  background-color: rgba(248, 187, 217, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+.btn-primary {
+  background-color: var(--pink-primary);
+  border-color: var(--pink-primary);
+  color: var(--text-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-secondary);
+  border-color: var(--pink-secondary);
+  color: var(--text-dark);
+}
+
+.btn-outline-secondary {
+  border-color: var(--pink-primary);
+  color: var(--pink-dark);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--pink-primary);
+  border-color: var(--pink-primary);
+  color: var(--text-dark);
+}
+
+.text-success {
+  color: var(--pink-dark) !important;
+}
+
+#about {
+  background-color: var(--pink-light) !important;
+}
+
+.card {
+  border: 1px solid rgba(248, 187, 217, 0.3);
+}
+
+.btn-outline-dark {
+  border-color: var(--pink-primary);
+  color: var(--pink-dark);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--pink-primary);
+  border-color: var(--pink-primary);
+  color: var(--text-dark);
+}
