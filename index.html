@@ -31,13 +31,27 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#home">Portfolio</a>
-        <div class="collapse navbar-collapse">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -59,20 +73,20 @@
                   />
                 </div>
                 <h1 class="card-title mb-3">Naila Yuni Mutiarani</h1>
+                <p class="mb-2"><strong>NIM:</strong> 2304140084</p>
+                <p class="mb-2">
+                  <strong>Program Studi:</strong> Sistem Informasi
+                </p>
                 <p class="text-muted fs-5 mb-4">Information Systems Student</p>
                 <p class="lead mb-4">
                   Welcome to my personal space! I'm passionate about technology,
                   web development, and creating digital solutions.
                 </p>
 
-                <!-- Button -->
+                <!-- Buttons -->
                 <div class="mb-4">
-                  <a
-                    href="https://numucodes.me"
-                    class="btn btn-primary btn-lg me-3"
-                    target="_blank"
-                  >
-                    View My Work
+                  <a href="#projects" class="btn btn-primary btn-lg me-3">
+                    View My Projects
                   </a>
                   <a href="#about" class="btn btn-outline-secondary btn-lg">
                     Learn More
@@ -104,7 +118,7 @@
                 <p class="mb-3">
                   <strong>NIM:</strong> 2304140084<br />
                   <strong>Program Studi:</strong> Sistem Informasi<br />
-                  <strong>Universitas:</strong> Universita Negeri Semarang
+                  <strong>Universitas:</strong> Universitas Pendidikan Indonesia
                 </p>
 
                 <h5 class="mt-4 mb-3">Tentang Saya</h5>
@@ -114,35 +128,85 @@
                   sedang mempelajari berbagai teknologi web seperti HTML, CSS,
                   JavaScript, dan framework modern.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <h5 class="mt-4 mb-3">Skills</h5>
-                <div class="row">
-                  <div class="col-md-6">
-                    <ul class="list-unstyled">
-                      <li>
-                        <i class="fas fa-check text-success me-2"></i>HTML & CSS
-                      </li>
-                      <li>
-                        <i class="fas fa-check text-success me-2"></i>JavaScript
-                      </li>
-                      <li>
-                        <i class="fas fa-check text-success me-2"></i>Bootstrap
-                      </li>
-                    </ul>
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fas fa-check text-success me-2"></i>HTML & CSS
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check text-success me-2"></i>JavaScript
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check text-success me-2"></i>Bootstrap
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fas fa-check text-success me-2"></i>Web Design
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check text-success me-2"></i>Database
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check text-success me-2"></i>Problem
+                    Solving
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">
+                      Personal portfolio website built with HTML, CSS, and
+                      Bootstrap.
+                    </p>
+                    <a href="#" class="btn btn-primary">View Project</a>
                   </div>
-                  <div class="col-md-6">
-                    <ul class="list-unstyled">
-                      <li>
-                        <i class="fas fa-check text-success me-2"></i>Web Design
-                      </li>
-                      <li>
-                        <i class="fas fa-check text-success me-2"></i>Database
-                      </li>
-                      <li>
-                        <i class="fas fa-check text-success me-2"></i>Problem
-                        Solving
-                      </li>
-                    </ul>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Development Projects</h5>
+                    <p class="card-text">
+                      Collection of web development projects and experiments.
+                    </p>
+                    <a
+                      href="https://numucodes.me"
+                      class="btn btn-primary"
+                      target="_blank"
+                      >Visit Website</a
+                    >
                   </div>
                 </div>
               </div>
@@ -152,8 +216,32 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="text-center">
+              <p class="lead mb-4">
+                Feel free to reach out to me for collaboration or just to say
+                hello!
+              </p>
+              <a
+                href="https://github.com/Tiarawr"
+                class="btn btn-primary btn-lg"
+                target="_blank"
+              >
+                <i class="fab fa-github me-2"></i>Visit My GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="bg-light text-dark mt-5 py-4">
+    <footer class="bg-light text-dark py-4">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-6 text-center">
